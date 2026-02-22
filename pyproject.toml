@@ -12,6 +12,9 @@ dependencies = [
 ]
 
 [dependency-groups]
+lint = [
+    "ruff>=0.15.2",
+]
 testing = [
     "pytest>=9.0.2",
 ]
