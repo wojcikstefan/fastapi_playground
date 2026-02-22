@@ -163,6 +163,7 @@ version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
     { name = "fastapi", extra = ["standard"] },
+    { name = "pydantic-settings" },
     { name = "sqlalchemy" },
     { name = "uvicorn" },
 ]
@@ -175,6 +176,7 @@ testing = [
 [package.metadata]
 requires-dist = [
     { name = "fastapi", extras = ["standard"], specifier = ">=0.129.2" },
+    { name = "pydantic-settings", specifier = ">=2.13.1" },
     { name = "sqlalchemy", specifier = ">=2.0.46" },
     { name = "uvicorn", specifier = ">=0.41.0" },
 ]
